@@ -2644,13 +2644,6 @@
   margin-top: 80vh;
 } */
 
-.card {
-    width: 90vw;
-    height: 30vh;
-    margin: 0 auto;
-    margin-top: 15vh;
-    border: 2px solid white;
-}
 #star {
     animation: spin 6s linear infinite;
     transform-origin: center;
@@ -2661,7 +2654,7 @@
     width: 400px;
     display: block;
     fill: #3c9c33;
-    margin-top: 35vh;
+    margin-top: 25vh;
 }
 @keyframes spin {
     0% {
@@ -2672,4 +2665,46 @@
         -webkit-transform: rotate(359deg);
         transform: rotate(359deg);
     }
+}
+
+.card {
+    width: 90vw;
+    height: 40vh;
+    margin: 0 auto;
+    margin-top: 15vh;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.region {
+    font-size: 60px;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+}
+.pas-reg {
+    margin: 0;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+.name-region {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-grow: 1;
+}
+.name-region > img {
+    height: 60px;
+    margin: 0 20px 0 20px;
+}
+.b1, .b2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.photo > img {
+    width: 400px;
+    height: 500px;
 }
