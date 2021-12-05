@@ -149,3 +149,32 @@
 // else {
 //     $('#playAudio').remove() // just to make sure that it will not have 2x audio in the background 
 // }
+// var myAudio1 = new Audio('/audio/metel.mp3');
+// myAudio1.play();
+// let radio = document.querySelectorAll('fieldset > input');
+// radio.oninput = function() {
+//   console.log(radio.value);
+// }
+  
+  
+  
+  
+  
+//   if(radio.value == "on") {
+//     myAudio1.play();
+//   };
+//   if(radio.value == "of") {
+//     myAudio1.stop();
+//   };
+// };
+
+
+// function check()
+// {
+//     var inp = document.getElementsByName('r');
+//     for (var i = 0; i < inp.length; i++) {
+//         if (inp[i].type == "radio" && inp[i].checked) {
+//             console.log("selected: " + inp[i].value);
+//         }
+//     }
+// }
